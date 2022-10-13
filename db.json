@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "sanee",
+      "email": "saneekadam13899@gmail.com",
+      "password": "sanee@123",
+      "intersts": "sanee",
+      "Preferedsize": 11
+    }
+  ],
+  "signup": [
+    {
+      "name": "sanneeee",
+      "email": "saneekadam13899@gmail.com",
+      "password": "jn",
+      "intersts": "danjfa d d",
+      "Preferedsize": "jndjsnjgjg",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "jn",
+      "intersts": "",
+      "Preferedsize": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "jn",
+      "intersts": "",
+      "Preferedsize": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "edas",
+      "password": "sddd",
+      "intersts": "",
+      "Preferedsize": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "edas",
+      "password": "sddd",
+      "intersts": "",
+      "Preferedsize": "",
+      "id": 5
+    },
+    {
+      "name": "sanee",
+      "email": "edas@gmail.com",
+      "password": "sddd",
+      "intersts": "saffj",
+      "Preferedsize": "fhtrhrszsz",
+      "id": 6
+    }
+  ]
+}

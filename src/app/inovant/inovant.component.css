@@ -1,0 +1,14 @@
+@import '~font-awesome/css/font-awesome.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.icons{
+    margin: 10px;
+}
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.space{
+    display: flex;
+    justify-content: space-evenly;
+}

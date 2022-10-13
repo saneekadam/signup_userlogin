@@ -1,0 +1,102 @@
+<div><nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
+    <a class="navbar-brand " style="color:darkred" href="#"><h1>osh</h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active" >
+          <a class="nav-link" href="#" >home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">categories</a>
+        </li>
+      </ul>
+    </div>
+<i class="fa fa-search icons" aria-hidden="true"></i>
+<i class="fa fa-user-o icons" aria-hidden="true"></i>
+<i class="fa fa-heart-o icons" aria-hidden="true"></i>
+<i class="fa fa-briefcase icons" aria-hidden="true"></i>
+   
+        <a class="nav-link dropdown-toggle "style="color:black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Kuwait
+        </a>
+    
+  </nav>
+  <div class="container " >
+    <div ><h3 style="margin-left:70px;">welcome, please log in /create account </h3></div>
+    <div class="space"style="margin-top:50px;">
+        <div class="col-sm-5 card bg-light shadow p-3 mb-5 bg-white" style="border-radius: 0px;"><form>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+            <h5>log in</h5>
+              <input type="email" id="form2Example1" class="form-control bg-light" placeholder="email address" />
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" class="form-control bg-light " placeholder="Password"/>
+            </div>
+          
+        
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" for="form2Example31"> Remember me </label>
+                    <span style="margin-left:180px;"><a href="#!" style="color:black;">Forgot password?</a></span>
+                </div>
+            <button type="button" class="btn btn-danger mt-3" style="width:100%; ">Log in</button>
+            <div class="text-center">
+              or
+            </div>
+            <div class="space mb-4">
+                <button  class="btn  mt-3 " style="background-color:rgba(2, 43, 92, 0.829); color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg> sign in facebook</button>
+                <button  class="btn  mt-3 border " style="color: black;"><img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/> sign in with Google</button> 
+             </div>
+            
+          </form></div>
+
+
+<!-- Create account -->
+          <div class="col-sm-5 card bg-light shadow p-3 mb-5 bg-white" style="border-radius: 0px;">
+            <form #userdata="ngForm" (ngSubmit)="submit(userdata.value)">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+            <h5>create account</h5>
+              <input type="text" class="form-control bg-light" name="name" required  #name='ngModel' placeholder="full name" ngModel/>
+             
+            </div>
+
+            <div class="form-outline mb-4">
+                  <input type="email"  class="form-control bg-light" ngModel name="email" placeholder="email address" />
+                </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password"  class="form-control bg-light " ngModel  name="password" placeholder="Password"/>
+            </div>
+            <div class="form-outline mb-4">
+                <input type="password"  class="form-control bg-light " placeholder=" confirm Password"/>
+              </div>
+              <div class="form-outline mb-4">
+                  <input type="text"  class="form-control bg-light" ngModel name="intersts" placeholder="intersts" />
+                </div>
+                <div class="form-outline mb-4">
+                      <input type="text"  class="form-control bg-light" ngModel name="Preferedsize" placeholder="peferred size" />
+                    </div>
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value=""  checked />
+                  <label class="form-check-label" for="form2Example31">news letter </label>
+                </div>
+                <div class="form-check  mt-2">
+                    <input class="form-check-input" type="checkbox" value=""  checked />
+                    <label class="form-check-label" for="form2Example31">by registering you  agree with t&c and privacy policy</label>
+                  </div>
+            <button type="submit" class="btn btn-danger mt-3" style="width:100%; ">create account</button>
+   </form></div>
+    </div>
+  </div>
